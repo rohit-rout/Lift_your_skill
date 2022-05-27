@@ -1,0 +1,52 @@
+.head{
+    
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height:4vmax;
+    /* padding:2vmax; */
+    justify-content: flex-end;
+    align-items: center;
+
+}
+ div> ul{
+    display: flex;
+    list-style: none;
+    
+} 
+div> ul> li{
+    margin:0 1.5vmax;
+    font-family:"Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+    font: 400 1.5vmax  "roboto";
+    
+    /* border: 1px solid black; */
+} 
+.link {
+    outline: none;
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+}
+div> ul> li>a:hover{
+    color: tomato;
+}
+
+
+.speedDial {
+    position: fixed;
+    left: 3vmax;
+    top: 1vmax;  
+  }
+ 
+  
+  .speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+  }
+  /* .MuiFab-root{ */
+     /* width: 20px  !important;
+     height: 20px  !important; */
+     /* min-width: 10px  !important;
+     min-height:  10px !important; */
+     /* box-shadow: none !important;  */
+      /* background-color: transparent !important;*/
+  /* }s */
